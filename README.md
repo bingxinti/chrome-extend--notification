@@ -1,1 +1,1 @@
-# github-notification
+实现Hello World版Chrome扩展程序
