@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "搞着玩玩~~~~~~",
+    "description": "自定义~~~~~~",
+    "version": "0.0.1",
+    "browser_action": {
+        "default_icon": "src/img/icon.png",
+        "default_popup": "src/popup.html",
+        "default_title": "Github Notification"
+    },
+
+     "icons": { "16": "src/img/icon.png",
+           "48": "src/img/icon.png",
+          "128": "src/img/icon.png" },
+
+    "permissions": [
+        "https://*.github.com/*"
+    ],
+
+     "content_scripts": [{
+         "matches": ["http://*/*","https://*/*"],
+         "js": ["src/js/test.js"],
+         "run_at": "document_start",
+         "all_frames": true
+    }]
+
+}

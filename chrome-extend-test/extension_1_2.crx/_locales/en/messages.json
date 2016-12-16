@@ -1,0 +1,39 @@
+{
+    "name": {
+        "message": "Light QRGenerator"
+    },
+    "description": {
+	"message": "Create QRCode for current page by one-click, Or create for any page content by right-click."
+    },
+
+    "ok": {
+	"message": "OK"
+    },
+
+    "cancel": {
+	"message": "Cancel"
+    },
+
+    "popup_text_hint": {
+	"message": "type to generate"
+    },
+
+    "context_menu_placeholder": {
+	"message": "Create QRCode for $1"
+    },
+
+    "context_menu_page": {
+	"message": "Page"
+    },
+
+    "context_menu_selection": {
+	"message": "Selection"
+    },
+
+    "context_menu_link": {
+	"message": "Link"
+    },
+    "context_menu_image": {
+	"message": "Image"
+    }
+}

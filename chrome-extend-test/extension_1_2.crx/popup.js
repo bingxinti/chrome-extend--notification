@@ -1,0 +1,1 @@
+$(Jsqr.initPopup);
